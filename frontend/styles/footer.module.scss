@@ -1,0 +1,13 @@
+.container{
+    // background-color: black;
+    padding: 20px;
+    .top{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        
+    }
+    .bottom{
+        margin-top: 20px;
+    }
+}
