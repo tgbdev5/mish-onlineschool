@@ -45,7 +45,7 @@ const Footer = () => {
               <ListItemButton>
                 <ListItemIcon>
                   <WhatsAppIcon sx={{ color: "#25D366" }} />
-                </ListItemIcon>
+                </ListItemIcon >
                 <ListItemText primary="+79258534128 / +33752278870" />
               </ListItemButton>
             </ListItem>
@@ -68,7 +68,7 @@ const Footer = () => {
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <PeopleIcon />
+                  <PeopleIcon className={styles.icon}/>
                 </ListItemIcon>
                 <ListItemText primary=" 7 000 active leaners and tutors" />
               </ListItemButton>
@@ -76,7 +76,7 @@ const Footer = () => {
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <MenuBookIcon />
+                  <MenuBookIcon className={styles.icon}/>
                 </ListItemIcon>
                 <ListItemText primary=" 500 total courses available" />
               </ListItemButton>
@@ -91,7 +91,7 @@ const Footer = () => {
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <GavelIcon />
+                  <GavelIcon  className={styles.icon}/>
                 </ListItemIcon>
                 <ListItemText primary="Terms" />
               </ListItemButton>
@@ -99,7 +99,7 @@ const Footer = () => {
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <PrivacyTipIcon />
+                  <PrivacyTipIcon className={styles.icon}/>
                 </ListItemIcon>
                 <ListItemText primary="Privacy" />
               </ListItemButton>
@@ -107,7 +107,7 @@ const Footer = () => {
             <ListItem disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  <AccessibilityIcon />
+                  <AccessibilityIcon className={styles.icon} />
                 </ListItemIcon>
                 <ListItemText primary=" Accessibility " />
               </ListItemButton>
@@ -115,7 +115,7 @@ const Footer = () => {
           </List>
         </div>
       </div>
-      <Divider />
+      <Divider sx={{backgroundColor:"white"}}/>
       <div className={styles.bottom}>&copy; 2024 All Rights Reserved</div>
       {/* this is the modal for the email */}
       <Dialog

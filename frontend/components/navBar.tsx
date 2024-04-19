@@ -25,7 +25,7 @@ const NavBar = () => {
     <Paper className={styles.container1}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <Image src={"/eye.png"} width={60} height={50} alt="logo" />
+          <Image className={styles.imgLogo} src={"/eye.png"} width={50} height={50} alt="logo" />
         </div>
         <div className={styles.center}>
           <div
@@ -36,21 +36,21 @@ const NavBar = () => {
           </div>
           <ul className={openLinks ? styles.openNavLinks : styles.navLinks}>
             <li>
-              <Link href="/">home</Link>
+              <Link className={styles.link} href="/">home</Link>
             </li>
             <li>
-              <Link href="/primary" style={{ whiteSpace: "nowrap" }}>
+              <Link href="/primary" className={styles.link} style={{ whiteSpace: "nowrap"}}>
                 primary L
               </Link>
             </li>
             <li>
-              <Link href="/secondary" style={{ whiteSpace: "nowrap" }}>
+              <Link href="/secondary" className={styles.link} style={{ whiteSpace: "nowrap" }}>
                 {" "}
                 secondary L
               </Link>
             </li>
             <li>
-              <Link href="/university" style={{ whiteSpace: "nowrap" }}>
+              <Link href="/university" className={styles.link} style={{ whiteSpace: "nowrap" }}>
                 {" "}
                 university L
               </Link>

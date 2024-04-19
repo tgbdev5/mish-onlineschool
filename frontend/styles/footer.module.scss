@@ -1,10 +1,14 @@
 .container{
-    // background-color: black;
+    background-color: #1F2022;
     padding: 20px;
+    color: grey;
     .top{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
+        .icon{
+            color: gray;
+        }
         
     }
     .bottom{
